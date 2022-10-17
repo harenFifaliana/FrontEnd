@@ -47,3 +47,4 @@ document.addEventListener("DOMContentLoaded", function () {
     easing: "cubic-bezier(.03,.98,.52,.99)",
     scale: 1.05,
 });
+
