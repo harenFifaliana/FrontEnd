@@ -203,4 +203,14 @@ var el = document.getElementById("str");
         var running = setTimeout(animate, 120);
     }
 })();
+var string =
+    "EMITDANCE DEVELOPPEURS";
+var str = string.split("");
+var el = document.getElementById("titre");
+(function animate() {
+    if (el !== null) {
+        str.length > 0 ? (el.innerHTML += str.shift()) : clearTimeout(running);
+        var running = setTimeout(animate, 120);
+    }
+})();
 // fin letre

@@ -1452,13 +1452,7 @@ button:hover {
     transform: translate(-50%, -50%);
     width: 600px;
     height: 120px;
-    background: linear-gradient(
-        transparent,
-        #45f3ff,
-        #45f3ff,
-        #45f3ff,
-        transparent
-    );
+    background: linear-gradient(315deg, #ffbc00, #ff0058);
     animation: animate 4s linear infinite;
 }
 
@@ -1675,7 +1669,7 @@ button:hover {
     font-size: 0.85em;
     color: #fff;
     padding: 1.1em 1em 0;
-    background: #345d88;
+    /* background: #345d88; */
 }
 /* ---- Float clearfix ---- */
 
