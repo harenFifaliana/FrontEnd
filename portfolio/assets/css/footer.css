@@ -12,8 +12,9 @@
   
   
   .footer {
-      background-color: #004658;
+      background-color: hsl(338, 67%, 11%);
       color: #fff;
+      
   }
   .footer-wave-svg {
       background-color: transparent;
