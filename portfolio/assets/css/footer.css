@@ -1,30 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-footer{
-    display: flex;
-    margin-top: 5em;
-    margin-bottom: 3em;
-}
-#case1{
-    width: 30%;
-    text-align: justify;
-    padding: 2em;
-}
-#case2{
-    padding: 2em;
-    width: 30%;
-}
-#case3{
-    padding: 2em;
-    width: 30%;
-}
-=======
-.footer {
-    background: #2d314d;
-    color: white;
-    padding: 2.5rem;
-    padding-bottom: 0;
-=======
+
 * {
     margin: 0;
     padding: 0;
@@ -243,7 +217,6 @@ footer{
       background-color: #027b9a;
       color: #fff;
       padding: 15px 30px;
->>>>>>> 4003f2b367cdbc013f8f574953043c523397558d
     text-align: center;
   }
   
@@ -330,7 +303,7 @@ footer{
     .footer-content-column {
         width: 24.99%;
     }
-<<<<<<< HEAD
+
 }
 
 .attribution {
@@ -373,13 +346,10 @@ footer{
 .attribution .social-media img.light {
     filter: invert(1);
 }
->>>>>>> b95f28ba5934c193743d5355f522f856c3c580d9
-=======
-  }
-  @media (min-width: 568px) {
+ 
+@media (min-width: 568px) {
     /* .footer-content-column {
         width: 49.99%;
     } */
   }
   
->>>>>>> 4003f2b367cdbc013f8f574953043c523397558d

@@ -662,9 +662,8 @@ button {
 /* For small devices */
 @media screen and (max-width: 720px) {
   .container {
-    /* margin-left: var(--mb-1); */
-    margin: auto 0;
-    /* margin-right: var(--mb-1); */
+    margin-left: var(--mb-1); 
+    margin-right: var(--mb-1);
   }
   .home__img {
     height: 200px;
@@ -1836,3 +1835,9 @@ button:hover {
   transform: scale(2);
 }
 /* fin cursor */
+
+
+.photo-cube  > image{
+    background-color: 'white';
+    display: block;
+}
