@@ -27,7 +27,7 @@ function linkAction() {
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove("show-menu");
 }
-navLink.forEach((n) => n.addEventListener("click", linkAction));
+navLink.forEach(n => n.addEventListener("click", linkAction));
 
 /* HOME SWIPER */
 let homeSwiper = new Swiper(".home-swiper", {
@@ -105,19 +105,17 @@ const sections = document.querySelectorAll("section[id]");
 function scrollActive() {
     const scrollY = window.pageYOffset;
 
-    sections.forEach((current) => {
+    sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
             sectionTop = current.offsetTop - 58,
             sectionId = current.getAttribute("id");
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document
-                .querySelector(".nav__menu a[href*=" + sectionId + "]")
-                .classList.add("active-link");
+                .querySelector(".nav__menu a[href*=" + sectionId + "]")?.classList.add("active-link");
         } else {
             document
-                .querySelector(".nav__menu a[href*=" + sectionId + "]")
-                .classList.remove("active-link");
+                .querySelector(".nav__menu a[href*=" + sectionId + "]")?.classList.remove("active-link");
         }
     });
 }
@@ -173,12 +171,12 @@ gsap.to({}, 0.016, {
     },
 });
 
-window.addEventListener("mousemove", (e) => {
+window.addEventListener("mousemove", e => {
     mouseX = e.clientX;
     mouseY = e.clientY;
 });
 
-cursorScale.forEach((link) => {
+cursorScale.forEach(link => {
     link.addEventListener("mousemove", () => {
         cursor.classList.add("grow");
         if (link.classList.contains("small")) {
@@ -196,11 +194,13 @@ cursorScale.forEach((link) => {
 // cursor
 // letre
 var string =
-  "Hello Welcome to Srki.tk , We hope you find what you're looking for and that you enjoy.";
+    "Hello Welcome to Srki.tk , We hope you find what you're looking for and that you enjoy.";
 var str = string.split("");
 var el = document.getElementById("str");
 (function animate() {
-  str.length > 0 ? (el.innerHTML += str.shift()) : clearTimeout(running);
-  var running = setTimeout(animate, 120);
+    if (el !== null) {
+        str.length > 0 ? (el.innerHTML += str.shift()) : clearTimeout(running);
+        var running = setTimeout(animate, 120);
+    }
 })();
 // fin letre
