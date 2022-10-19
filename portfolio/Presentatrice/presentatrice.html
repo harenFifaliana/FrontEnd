@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentatrice</title>
+    <link rel="stylesheet" href="../assets/css/presentatrice.css">
+    <link rel="stylesheet" href="../assets/css/frontend.css">
+    <link rel="stylesheet" href="../assets/css/contenue.css" />
+
+
+    <!-- <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        /> -->
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
+    <script src="../assets/js/contenue.js" defer></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"> Spooky </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#about" class="nav__link">Full-Stack</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../frontEnd/toky.html" class="nav__link">Front-End</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Presentatrice</a>
+                    </li>
+                    <a href="#trick" class="nav__link">contact</a>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+                <img src="https://assets.codepen.io/7773162/nav-img.png" alt="" class="nav__img" />
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- HOME -->
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <!-- HOME SLIDER 1 -->
+                    <section class="section about">
+                        <div class="about__container container grid">
+                            <div class="about__data">
+                                <h2 class="section__title about__title">
+                                    Présentation personnelle<br />
+
+                                </h2>
+                                <p class="about__description">
+                                    Je m’appelle ANDRIAMPANIRY Santatra Nomena, étudiante de niveau 2 en Développement
+                                    d’Application Intranet et Internet et présentatrice de projet de l’ED-DEV. <br> La
+                                    pression n’est pas pour moi un obstacle, j’adore les challenges et apprendre de
+                                    nouvelles choses me fascine. Même en étant étudiante en informatique, la littérature
+                                    me passionne et user des diverses langues que j’ai apprise est pour moi un
+                                    accomplissement.
+                                    <br> Mes qualités ?: J’accepte et je prends en compte les critiques que l’on fait
+                                    par rapport à mon travail aussi j’ai la volonté d’apprendre de nouvelle chose et de
+                                    surpasser mes limites.
+                                </p>
+                                <a href="#" class="book--now">
+                                    <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <img src="../assets/img/apropos/team/nomena.jpg" alt="" class="about__img" />
+                        </div>
+                    </section>
+                    <!-- CATEGORY -->
+                    <section class="section category" id="about">
+                        <h2 class="section__title">
+                            Compétences <br />
+                            Acquises
+                        </h2>
+                        <div class="category__container container grid">
+                            <div class="category__data">
+                                <div class="content clearfix">
+
+                                    <div class="cube-container">
+                                        <div class="photo-cube">
+
+                                            <img class="front" src="../assets/img/apropos/galery/langages/html.png"
+                                                alt="">
+                                            <img class="back photo-desc"
+                                                src="../assets/img/apropos/galery/langages/css.png" alt="">
+                                            <img class="left" src="../assets/img/apropos/galery/langages/919826.png"
+                                                alt="">
+                                            <img class="right" src="../assets/img/apropos/galery/langages/js.png"
+                                                alt="">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="category__title">Front-End</h3>
+                                <p class="category__description">
+                                    Html, Css, Javascript
+                                </p>
+                            </div>
+                            <div class="category__data">
+                                <div class="content clearfix">
+
+                                    <div class="cube-container">
+                                        <div class="photo-cube">
+
+                                            <img class="front" src="../assets/img/apropos/galery/langages/python.png"
+                                                alt="">
+                                            <img class="back photo-desc"
+                                                src="../assets/img/apropos/galery/langages/access.png">
+                                            <img class="left" src="../assets/img/apropos/galery/langages/mysql.png"
+                                                alt="">
+                                            <img class="right" src="../assets/img/apropos/galery/langages/access.png"
+                                                alt="">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="category__title">Back-End</h3>
+                                <p class="category__description">
+                                    Python, Access
+                                </p>
+                            </div>
+                            <div class="category__data">
+                                <div class="content clearfix">
+
+                                    <div class="cube-container">
+                                        <div class="photo-cube">
+
+                                            <img class="front"
+                                                src="../assets/img/248947585_1021974341925417_4872734773143087120_n.png"
+                                                alt="">
+                                            <img class="back photo-desc"
+                                                src="../assets/img/250311981_588730758914954_396256762077638404_n.png">
+                                            <img class="left"
+                                                src="../assets/img/250311981_588730758914954_396256762077638404_n.png"
+                                                alt="">
+                                            <img class="right"
+                                                src="../assets/img/250967912_1571701533171398_963479162439273579_n.png"
+                                                alt="">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="category__title">Atouts</h3>
+                                <p class="category__description">
+                                    Word, Excel, PowerPoint
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- HOME SLIDER 2 -->
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__data">
+                                <h3 class="home__subtitle">
+                                    #Mon parcours
+                                </h3>
+                                <h1 class="home__title">
+                                    DIPLOMES <br />
+                                    OBTENUES <br />
+
+                                </h1>
+                                <p class="home__description">
+                                    - 2022: Diplôme HSK niveau 1 et niveau 2 (Chinois)
+                                    <br> - 2018 : Baccalauréat série D,<br>- DELF B2
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="book--now">
+                                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                                            alt="" />
+                                    </a>
+                                    <a href="#" class="button--link button--flex">Track Record
+                                        <i class="bx bx-right-arrow-alt button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="home__group">
+                                <div class="menu_box">
+
+                                    <div class="box">
+                                        <span></span>
+                                        <div class="content">
+                                            <h2>Actuellement</h2>
+                                            <p>
+                                                Etudiante de niveau 2 en Développement d'Application Intranet et
+                                                Internet.
+                                            </p>
+                                            <a href="#">Voir Plus</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home__indicator"></div>
+                                <div class="home__details-img" data-aos="fade-up" data-aos-anchor-placement="bottom-center
+                                    data-aos-duration=" 2000">
+                                    <h4 class="home__details-title">
+                                        Captain Sem
+                                    </h4>
+                                    <span class="home__details-subtitle" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-bottom" data-aos-duration="3000">Veteran Spooky
+                                        Ghost</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- HOME SLIDER 3 -->
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <div class="menu_box">
+
+                                    <div class="box">
+                                        <span></span>
+                                        <div class="content">
+                                            <h2>Actuellement</h2>
+                                            <p>
+                                                Responsable Communication à l'Association des Etudiants de l'EMIT
+                                                (AEEMIT).
+                                            </p>
+                                            <a href="#">Voir Plus</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home__indicator"></div>
+                                <div class="home__details-img">
+                                    <h4 class="home__details-title">
+                                        The Labu “Reiza”
+                                    </h4>
+                                    <span class="home__details-subtitle">The Living Pumpkin</span>
+                                </div>
+                            </div>
+                            <div class="home__data">
+                                <h3 class="pumpkin__subtitle">
+                                    #Mes expériences
+                                </h3>
+                                <h1 class="home__title">
+                                    LES<br />
+                                    FORMATIONS <br />
+
+                                </h1>
+                                <p class="home__description">
+                                    - 2022-2021 : 1ère année à l’EMIT (DAII)
+                                    <br>- 2019-2018 : Formation concernant l’ODD (Objectif de développement durable)
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="book--now">
+                                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%282%29_2.svg"
+                                            alt="" />
+                                    </a>
+                                    <a href="#" class="button--link button--flex">Track Record
+                                        <i class="bx bx-right-arrow-alt button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- CATEGORY -->
+        <section class="section category">
+            <h2 class="section__title">
+                CENTRE <br />
+                D'INTERET
+            </h2>
+            <div class="category__container container grid">
+                <div class="category__data">
+                    <div class="menu_lumiere">
+                        <div class="lumiere">
+                            <div class="lines"></div>
+                            <div class="imageBox">
+                                <img src="../assets/img/apropos/galery/centre d'interêts/305312531_496984972434984_5874684981478064444_n.png"
+                                    alt="avatar" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>
+                                        EMIT DANCE<br />
+
+                                    </h2>
+                                    <div class="info">
+                                        <span>Si vous volez plus d'informations : <a href="#"> EMIT DANCE</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="category__title"></h3>
+                    <p class="category__description">
+                        Dance de salon SBK : Bachata , Salsa, Kizomba ; Urbaine ; Traditionnelle.
+                    </p>
+                </div>
+                <div class="category__data">
+                    <div class="menu_lumiere">
+                        <div class="lumiere">
+                            <div class="lines"></div>
+                            <div class="imageBox">
+                                <img src="../assets/img/apropos/galery/centre d'interêts/Nomena/téléchargement.png"
+                                    alt="avatar" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>
+                                        SUPERCODEURS<br />
+                                    </h2>
+                                    <div class="info">
+                                        <span>Si vous volez plus d'informations : <a href="#"> SUPERCODEURS </a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="category__title"></h3>
+                    <p class="category__description">
+                        Les SuperCodeurs contribuent à initier les enfants à l'informatique.
+                    </p>
+                </div>
+                <div class="category__data">
+                    <div class="menu_lumiere">
+                        <div class="lumiere">
+                            <div class="lines"></div>
+                            <div class="imageBox">
+                                <img src="../assets/img/apropos/galery/centre d'interêts/Nomena/images.png"
+                                    alt="avatar" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>
+                                        SCOUT <br />
+                                    </h2>
+                                    <div class="info">
+                                        <span>Si vous volez plus d'informations : <a href="#">METM</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="category__title">Witch Hat</h3>
+                    <p class="category__description">
+                        Pick the most stylish witch hats out there.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- OUR NEWSLETTER -->
+        <section class="section newsletter">
+            <div class="newsletter__container container">
+                <h2 class="section__title">Contactez-moi!!</h2>
+                <p class="newsletter__description">
+                    Si vous voulez être en contact avec moi n'hésitez pas!
+                </p>
+                <form action="" class="newsletter__form">
+                    <input type="text" placeholder="Enter your email" class="newsletter__input" />
+
+
+                </form>
+                <form action="" class="newsletter__form">
+
+                    <input type="text" placeholder="Enter your commentaire" class="newsletter__input" />
+                    <a href="#" class="book--now">
+                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+                    </a>
+                </form>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="section about" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        En savoir plus<br />
+
+                    </h2>
+                    <p class="about__description">
+                        Si vous êtes intéréssés par mon profil ou bien mes qualités. Veuilez cliquez ci-dessous!
+                    </p>
+                    <a href="#" class="book--now">
+                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+                    </a>
+                </div>
+                <img src="../assets/img/cv santatra.jpg" alt="" class="about__img" />
+            </div>
+        </section>
+
+        <!-- TRICK OR TREAT -->
+        <section class="section trick" id="trick">
+            <h2 class="section__title">MES LOISIRS</h2>
+            <div class="trick__container container grid">
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/illustration-danse-tango-dancing-couple-lettre-blanche_1314-2774.webp"
+                        alt="" class="trick__img" />
+                    <h3 class="trick__title">Danse</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Nomena/illustration-filet-volleyball-dessine-main_23-2149397213.webp"
+                        alt="" class="trick__img" />
+                    <h3 class="trick__title">Volleyball</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/nata.gif" alt="" class="trick__img" />
+                    <h3 class="trick__title">Natation</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Nomena/concentre-minuscules-personnes-lisant-livres_74855-5836.webp"
+                        alt="" class="trick__img" />
+                    <h3 class="trick__title">Lire</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Nomena/mere-pere-enfants-cuisiner-plats-cuisine_74855-7627.webp"
+                        alt="" class="trick__img" />
+                    <h3 class="trick__title">Cuisiner</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/musique.gif" alt="" class="trick__img" />
+                    <h3 class="trick__title">Ecouter de la musique</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!-- <script>
+        AOS.init();
+    </script> -->
+</body>
+
+</html>
+
+</html>
+
+</html>

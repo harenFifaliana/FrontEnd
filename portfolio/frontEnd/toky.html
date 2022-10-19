@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End</title>
+    <link rel="stylesheet" href="../assets/css/frontend.css">
+    <link rel="stylesheet" href="../assets/css/contenue.css" />
+
+    <!-- <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        /> -->
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
+    <script src="../assets/js/contenue.js" defer></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"> Spooky </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Full-Stack</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Front-End</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../Presentatrice/presentatrice.html" class="nav__link">Presentatrice</a>
+                    </li>
+                    <a href="#trick" class="nav__link">contact</a>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+                <img src="https://assets.codepen.io/7773162/nav-img.png" alt="" class="nav__img" />
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- HOME -->
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <!-- HOME SLIDER 1 -->
+                    <section class="section about">
+                        <div class="about__container container grid">
+                            <div class="about__data">
+                                <h2 class="section__title about__title">
+                                    Presentation personnel<br />
+
+                                </h2>
+                                <p class="about__description">
+                                    Je m’appelle RALAITSISA Tokinirina Angelot Ferdinand, étudiant de niveau 1 à l’EMIT
+                                    en Développement d’Application Intranet et Internet et développeur FrontEnd de
+                                    l’ED-DEV. Mon objectif est d’améliorer la façon d’étudier des élèves à l’Université
+                                    à partir de l’informatique et de l’utilisation de la technologie moderne. Je suis
+                                    une personne responsable, attentionné et débrouillard dans le travail que
+                                    j’effectue. <br>
+                                    Mes qualités ?: J’estime avoir la compétence dans ce que l’on me demande de faire et
+                                    j’ai la volonté d’apprendre de nouvelles choses pour y parvenir.
+                                </p>
+                                <a href="#" class="book--now">
+                                    <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <img src="../assets/img/apropos/team/toky.jpg" alt="" class="about__img" />
+                        </div>
+                    </section>
+                    <!-- CATEGORY -->
+                    <section class="section category" id="about">
+                        <h2 class="section__title">
+                            Competence <br />
+                            Aquise
+                        </h2>
+                        <div class="category__container container grid">
+                            <div class="category__data">
+                                <div class="content clearfix">
+
+                                    <div class="cube-container">
+                                        <div class="photo-cube">
+
+                                            <img class="front" src="../assets/img/apropos/galery/langages/html.png" alt="">
+                                            <img  class="back photo-desc" src="../assets/img/apropos/galery/langages/css.png" alt="">
+                                             <img class="left" src="../assets/img/apropos/galery/langages/919826.png" alt="">
+                                             <img class="right" src="../assets/img/apropos/galery/langages/js.png" alt="">
+             
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="category__title">Front-End</h3>
+                                <p class="category__description">
+                                    html, css, javascript
+                                </p>
+                            </div>
+                            <div class="category__data">
+                                <div class="content clearfix">
+
+                                    <div class="cube-container">
+                                        <div class="photo-cube">
+
+                                            <img class="front" src="../assets/img/apropos/galery/langages/python.png" alt="">
+                                            <img class="back photo-desc" src="../assets/img/apropos/galery/langages/access.png">
+                                            <img class="left" src="../assets/img/apropos/galery/langages/mysql.png" alt="">
+                                            <img class="right" src="../assets/img/apropos/galery/langages/access.png" alt="">
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="category__title">Back-end</h3>
+                                <p class="category__description">
+                                    python, access, mysql
+                                </p>
+                            </div>
+                            <div class="category__data">
+                                <div class="content clearfix">
+
+                                    <div class="cube-container">
+                                        <div class="photo-cube">
+
+                                            <img class="front" src="../assets/img/248947585_1021974341925417_4872734773143087120_n.png" alt="">
+                                            <img class="back photo-desc" src="../assets/img/250311981_588730758914954_396256762077638404_n.png">
+                                            <img class="left" src="../assets/img/250311981_588730758914954_396256762077638404_n.png" alt="">
+                                            <img class="right" src="../assets/img/ps.png" alt="">
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="category__title">Mes Atout</h3>
+                                <p class="category__description">
+                                    Word, Excel, PowerPoint, Adobe Photoshop 
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- HOME SLIDER 2 -->
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__data">
+                                <h3 class="home__subtitle">
+                                    #1 Top Scariest Ghost
+                                </h3>
+                                <h1 class="home__title">
+                                    DIPLOME <br />
+                                    OBTENUE <br />
+
+                                </h1>
+                                <p class="home__description">
+                                    2022-2021 : 1ère année de Licence à l’EMIT (DAII)
+                                    2020-2019 : Troisième année en série Technologique Tertiaire
+
+                                    2020: Baccalauréat série Technique Tertiaire 
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="book--now">
+                                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                                            alt="" />
+                                    </a>
+                                    <a href="#" class="button--link button--flex">Track Record
+                                        <i class="bx bx-right-arrow-alt button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="home__group">
+                                <div class="menu_box">
+
+                                    <div class="box">
+                                        <span></span>
+                                        <div class="content">
+                                            <h2>Actuellemnt</h2>
+                                            <p>
+                                               1 ere annee de licence à l'Ecole Management et d'Innovation Thecnologique
+                                            </p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home__indicator"></div>
+                                <div class="home__details-img" data-aos="fade-up" data-aos-anchor-placement="bottom-center
+                                    data-aos-duration=" 2000">
+                                    <h4 class="home__details-title">
+                                        Captain Sem
+                                    </h4>
+                                    <span class="home__details-subtitle" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-bottom" data-aos-duration="3000">Veteran Spooky
+                                        Ghost</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- HOME SLIDER 3 -->
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <div class="menu_box">
+
+                                    <div class="box">
+                                        <span></span>
+                                        <div class="content">
+                                            <h2>Actuellement</h2>
+                                            <p>...
+                                            </p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home__indicator"></div>
+                                <div class="home__details-img">
+                                    <h4 class="home__details-title">
+                                        The Labu “Reiza”
+                                    </h4>
+                                    <span class="home__details-subtitle">The Living Pumpkin</span>
+                                </div>
+                            </div>
+                            <div class="home__data">
+                                <h3 class="pumpkin__subtitle">
+                                    #3 Top Scariest Ghost 2020
+                                </h3>
+                                <h1 class="home__title">
+                                    TOUS <br />
+                                    LES FORMATION<br />
+
+                                </h1>
+                                <p class="home__description">
+                                    Formation de la scoutisme
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="book--now">
+                                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%282%29_2.svg"
+                                            alt="" />
+                                    </a>
+                                    <a href="#" class="button--link button--flex">Track Record
+                                        <i class="bx bx-right-arrow-alt button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- CATEGORY -->
+        <section class="section category">
+            <h2 class="section__title">
+                Centre d'Interet <br />
+                
+            </h2>
+            <div class="category__container container grid">
+                <div class="category__data">
+                    <div class="menu_lumiere">
+                        <div class="lumiere">
+                            <div class="lines"></div>
+                            <div class="imageBox">
+                                <img src="../assets/img/apropos/galery/centre d'interêts/305312531_496984972434984_5874684981478064444_n.png" alt="avatar" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>
+                                        EMIT DANCE <br />
+                                       
+                                    </h2>
+                                    <div class="info">
+                                        <span>Si vous voulez en savoir plus: consultez <a href="#">EMIT DANCE</a></span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="category__title"></h3>
+                    <p class="category__description">
+                        un Club qui se situe à l'Ecole de Management et D'innovation Téchologie.
+                    </p>
+                </div>
+                <div class="category__data">
+                    <div class="menu_lumiere">
+                        <div class="lumiere">
+                            <div class="lines"></div>
+                            <div class="imageBox">
+                                <img src="../assets/img/apropos/galery/centre d'interêts/Toky/images.png" alt="avatar" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>
+                                        Souct <br />
+                                       
+                                    </h2>
+                                    <div class="info">
+                                        <span>Si vous voulez en savoir plus: consultez <a href="#">ANTILY ETO MADAGASCAR</a></span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="category__title"></h3>
+                    <p class="category__description">
+                        Antily sy Manazava eto Madagascar
+                    </p>
+                </div>
+                <div class="category__data">
+                    <div class="menu_lumiere">
+                        <div class="lumiere">
+                            <div class="lines"></div>
+                            <div class="imageBox">
+                                <img src="../assets/img/apropos/galery/loisirs/Toky/ne-manquez-pas-panier-basket-ball-cible-tire-cerceau-jeu-hand-drawn-sketch-vector-illustration_460848-14967.webp" alt="avatar" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>
+                                       Basket ESCA <br />
+                                       
+                                    </h2>
+                                    <div class="info">
+                                        <span>Si vous voulez en savoir plus: consultez <a href="#">ESCA</a></span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="category__title"></h3>
+                    <p class="category__description">
+                        Un club au seins de l'Ecole de Management et d'Innovation technologie
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- OUR NEWSLETTER -->
+        <section class="section newsletter">
+            <div class="newsletter__container container">
+                <h2 class="section__title">Contactez-moi!!</h2>
+                <p class="newsletter__description">
+                    Si vous avez des travails à me proposer
+                </p>
+                <form action="" class="newsletter__form">
+                    <input type="text" placeholder="Enter your email" class="newsletter__input" />
+
+
+                </form>
+                <form action="" class="newsletter__form">
+
+                    <input type="text" placeholder="Enter your commentaire" class="newsletter__input" />
+                    <a href="#" class="book--now">
+                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+                    </a>
+                </form>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="section about" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        En savoir plus <br />
+                        
+                    </h2>
+                    <p class="about__description">
+                     
+                        Si vous êtes intéréssés par mon profil ou bien mes qualités. Veuilez cliquez ci-dessous!
+                    </p>
+                    <a href="#" class="book--now">
+                        <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+                    </a>
+                </div>
+                <img src="https://assets.codepen.io/7773162/about-img.png" alt="" class="about__img" />
+            </div>
+        </section>
+
+        <!-- TRICK OR TREAT -->
+        <section class="section trick" id="trick">
+            <h2 class="section__title">MES LOISIRS</h2>
+            <div class="trick__container container grid">
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Toky/personnages-joueurs-concept-jeu-ligne_23-2148541601.webp" alt="" class="trick__img" />
+                    <h3 class="trick__title">Jeux Video</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/nata.gif" alt="" class="trick__img" />
+                    <h3 class="trick__title">Natation</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Toky/vecteur-football-illustration-conception-artistique_1394-366.webp" alt="" class="trick__img" />
+                    <h3 class="trick__title">football</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Toky/vecteur-basket-ball-temps-loisirs_23-2147492443.webp" alt="" class="trick__img" />
+                    <h3 class="trick__title">Baskt-ball</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/Toky/homme-boxeur-athlete-s-entraine-pour-se-preparer-aux-jeux-olympiques-asiatiques-competition_1150-50805.webp" alt="" class="trick__img" />
+                    <h3 class="trick__title">kick-boxing</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+                <div class="trick__content">
+                    <img src="../assets/img/apropos/galery/loisirs/illustration-danse-tango-dancing-couple-lettre-blanche_1314-2774.webp" alt="" class="trick__img" />
+                    <h3 class="trick__title">Dance</h3>
+
+                    <button class="button trick__button">
+                        <i class="bx bx-cart-alt trick__icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!-- <script>
+        AOS.init();
+    </script> -->
+</body>
+
+</html>
