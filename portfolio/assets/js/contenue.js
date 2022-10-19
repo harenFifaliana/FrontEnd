@@ -112,10 +112,12 @@ function scrollActive() {
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document
-                .querySelector(".nav__menu a[href*=" + sectionId + "]")?.classList.add("active-link");
+                .querySelector(".nav__menu a[href*=" + sectionId + "]")
+                ?.classList.add("active-link");
         } else {
             document
-                .querySelector(".nav__menu a[href*=" + sectionId + "]")?.classList.remove("active-link");
+                .querySelector(".nav__menu a[href*=" + sectionId + "]")
+                ?.classList.remove("active-link");
         }
     });
 }
@@ -128,7 +130,8 @@ function scrollUp() {
     if (this.scrollY >= 460) scrollUp.classList.add("show-scroll");
     else scrollUp.classList.remove("show-scroll");
 }
-window.addEventListener("scroll", scrollUp);
+// l'element #scrull-up n'existe pas encore
+// window.addEventListener("scroll", scrollUp);
 
 /* SCROLL REVEAL ANIMATION */
 const sr = ScrollReveal({
@@ -203,8 +206,7 @@ var el = document.getElementById("str");
         var running = setTimeout(animate, 120);
     }
 })();
-var string =
-    "EMITDANCE DEVELOPPEURS";
+var string = "EMITDANCE DEVELOPPEURS";
 var str = string.split("");
 var el = document.getElementById("titre");
 (function animate() {
