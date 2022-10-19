@@ -46,32 +46,35 @@
                             <div class="home__content grid">
                                 <div class="home__group">
                                     <!-- slide menu -->
-                                    <div class="contenue">
-                                        <div class="card">
-                                            <h3>This is a title</h3>
-                                        </div>
-                                        <div class="card">
-                                            <h3>This is a title</h3>
-                                        </div>
-                                        <div class="card">
-                                            <h3>This is a title</h3>
-                                        </div>
-                                        <div class="card">
-                                            <h3>This is a title</h3>
-                                        </div>
-                                        <div class="card">
-                                            <h3>This is a title</h3>
-                                        </div>
-                            
-                                        <div class="buttons">
-                                            <button onclick="moveBackwards()">
-                                                <i class="lni lni-chevron-left"></i> Back
-                                            </button>
-                                            <button onclick="moveForward()">
-                                                Next <i class="lni lni-chevron-right"></i>
-                                            </button>
-                                        </div>
-                                    </div>
+                                    <div class="slideshow">
+  
+                                        <input type="radio" id="button-1" name="radio-set" class="selecteur-1" checked="checked" />
+                                        <label for="button-1" class="button-label-1"></label>
+                                        
+                                        <input type="radio" id="button-2" name="radio-set" class="selecteur-2" />
+                                        <label for="button-2" class="button-label-2"></label>
+                                        
+                                        <input type="radio" id="button-3" name="radio-set" class="selecteur-3" />
+                                        <label for="button-3" class="button-label-3"></label>
+                                        
+                                        <input type="radio" id="button-4" name="radio-set" class="selecteur-4" />
+                                        <label for="button-4" class="button-label-4"></label>
+                                        
+                                        <label for="button-1" class="sp-arrow sp-a1"></label>
+                                        <label for="button-2" class="sp-arrow sp-a2"></label>
+                                        <label for="button-3" class="sp-arrow sp-a3"></label>
+                                        <label for="button-4" class="sp-arrow sp-a4"></label>
+                                        
+                                      <div class="contenu">
+                                      <ul class="slider clearfix">
+                                      <li><img src="../assets/img/undraw_engineering_team_a7n2.svg" alt="image01" /></li>
+                                      <li><img src="URimageHERE.jpg" alt="image02" /></li>
+                                      <li><img src="URimageHERE.jpg" alt="image03" /></li>
+                                      <li><img src="URimageHERE.jpg" alt="image04" /></li>
+                                      </ul>
+                                      </div>   
+                                        
+                                      </div>
                                     <!-- frin slide menu -->
                                     <div class="home__indicator"></div>
                                     <div
@@ -152,7 +155,7 @@
                             </div>		
                 
                         </div>
-                        <h3 class="category__title">Ghosts</h3>
+                        <h3 class="category__title">Front-end</h3>
                         <p class="category__description">
                             Choose the ghosts, the scariest there are.
                         </p>
@@ -176,7 +179,7 @@
                             </div>		
                 
                         </div>
-                        <h3 class="category__title">Pumpkins</h3>
+                        <h3 class="category__title">Back-End</h3>
                         <p class="category__description">
                             You look at the scariest pumpkins there is.
                         </p>
@@ -200,7 +203,7 @@
                             </div>		
                 
                         </div>
-                        <h3 class="category__title">Witch Hat</h3>
+                        <h3 class="category__title">Mes Atous</h3>
                         <p class="category__description">
                             Pick the most stylish witch hats out there.
                         </p>
@@ -631,6 +634,7 @@
                 }
             }
         </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
         <!-- <script>
             AOS.init();
         </script> -->
