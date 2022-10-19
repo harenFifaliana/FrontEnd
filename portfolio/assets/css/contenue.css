@@ -392,6 +392,7 @@ button {
   width: 200px;
   justify-self: center;
   animation: floating 2s ease-in-out infinite;
+  border-radius: 15px;
 }
 /* TRICK OR TREAT */
 .trick__container {
@@ -408,7 +409,7 @@ button {
   overflow: hidden;
 }
 .trick__img {
-  width: 90px;
+  height: 110px;
   transition: 0.3s;
 }
 .trick__subtitle,
