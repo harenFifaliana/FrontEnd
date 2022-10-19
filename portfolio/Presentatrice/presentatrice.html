@@ -100,14 +100,14 @@
                                     <div class="cube-container">
                                         <div class="photo-cube">
 
-                                            <img class="front" src="../assets/img/apropos/galery/langages/html.png"
-                                                alt="">
+                                            <img class="front photo-desc"
+                                                src="../assets/img/apropos/galery/langages/html.png" alt="">
                                             <img class="back photo-desc"
                                                 src="../assets/img/apropos/galery/langages/css.png" alt="">
-                                            <img class="left" src="../assets/img/apropos/galery/langages/919826.png"
-                                                alt="">
-                                            <img class="right" src="../assets/img/apropos/galery/langages/js.png"
-                                                alt="">
+                                            <img class="left photo-desc"
+                                                src="../assets/img/apropos/galery/langages/919826.png" alt="">
+                                            <img class="right photo-desc"
+                                                src="../assets/img/apropos/galery/langages/js.png" alt="">
 
                                         </div>
                                     </div>
@@ -124,14 +124,14 @@
                                     <div class="cube-container">
                                         <div class="photo-cube">
 
-                                            <img class="front" src="../assets/img/apropos/galery/langages/python.png"
-                                                alt="">
+                                            <img class="front photo-desc"
+                                                src="../assets/img/apropos/galery/langages/python.png" alt="">
                                             <img class="back photo-desc"
                                                 src="../assets/img/apropos/galery/langages/access.png">
-                                            <img class="left" src="../assets/img/apropos/galery/langages/mysql.png"
-                                                alt="">
-                                            <img class="right" src="../assets/img/apropos/galery/langages/access.png"
-                                                alt="">
+                                            <img class="left photo-desc"
+                                                src="../assets/img/apropos/galery/langages/mysql.png" alt="">
+                                            <img class="right photo-desc"
+                                                src="../assets/img/apropos/galery/langages/access.png" alt="">
 
                                         </div>
                                     </div>
@@ -148,15 +148,15 @@
                                     <div class="cube-container">
                                         <div class="photo-cube">
 
-                                            <img class="front"
+                                            <img class="front photo-desc"
                                                 src="../assets/img/248947585_1021974341925417_4872734773143087120_n.png"
                                                 alt="">
                                             <img class="back photo-desc"
                                                 src="../assets/img/250311981_588730758914954_396256762077638404_n.png">
-                                            <img class="left"
+                                            <img class="left photo-desc"
                                                 src="../assets/img/250311981_588730758914954_396256762077638404_n.png"
                                                 alt="">
-                                            <img class="right"
+                                            <img class="right photo-desc"
                                                 src="../assets/img/250967912_1571701533171398_963479162439273579_n.png"
                                                 alt="">
 
@@ -215,13 +215,13 @@
                                 </div>
                                 <div class="home__indicator"></div>
                                 <div class="home__details-img" data-aos="fade-up" data-aos-anchor-placement="bottom-center
-                                    data-aos-duration=" 2000">
+                                    data-aos-duration=" 2000>
                                     <h4 class="home__details-title">
-                                        Captain Sem
+                                        EMIT
                                     </h4>
                                     <span class="home__details-subtitle" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="3000">Veteran Spooky
-                                        Ghost</span>
+                                        data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="3000">Fianarantsoa</span>
                                 </div>
                             </div>
 
@@ -248,9 +248,9 @@
                                 <div class="home__indicator"></div>
                                 <div class="home__details-img">
                                     <h4 class="home__details-title">
-                                        The Labu “Reiza”
+                                        EMIT
                                     </h4>
-                                    <span class="home__details-subtitle">The Living Pumpkin</span>
+                                    <span class="home__details-subtitle">Fianarantsoa</span>
                                 </div>
                             </div>
                             <div class="home__data">
@@ -285,8 +285,8 @@
         <!-- CATEGORY -->
         <section class="section category">
             <h2 class="section__title">
-                CENTRE <br />
-                D'INTERET
+                CENTRES <br />
+                D'INTERETS
             </h2>
             <div class="category__container container grid">
                 <div class="category__data">
@@ -304,7 +304,7 @@
 
                                     </h2>
                                     <div class="info">
-                                        <span>Si vous volez plus d'informations : <a href="#"> EMIT DANCE</a></span>
+                                        <span>Si vous voulez plus d'informations : <a href="#"> EMIT DANCE</a></span>
                                     </div>
                                 </div>
                             </div>
@@ -329,7 +329,7 @@
                                         SUPERCODEURS<br />
                                     </h2>
                                     <div class="info">
-                                        <span>Si vous volez plus d'informations : <a href="#"> SUPERCODEURS </a></span>
+                                        <span>Si vous voulez plus d'informations : <a href="#"> SUPERCODEURS </a></span>
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +354,7 @@
                                         SCOUT <br />
                                     </h2>
                                     <div class="info">
-                                        <span>Si vous volez plus d'informations : <a href="#">METM</a></span>
+                                        <span>Si vous voulez plus d'informations : <a href="#">METM</a></span>
                                     </div>
                                 </div>
                             </div>
@@ -473,13 +473,19 @@
         <i class="bx bx-up-arrow-alt scrollup__icon"></i>
     </a>
 
-    <!-- <script>
-        AOS.init();
-    </script> -->
+    <footer id="footer">
+
+    </footer>
+
+    <script defer>
+        const loadHTML = (url, div) => {
+            fetch(url)
+                .then((reponse) => reponse.text())
+                .then((contenue) => (document.getElementById(div).innerHTML = contenue));
+        };
+
+        loadHTML("../footer/footer.html", "footer")
+    </script>
 </body>
-
-</html>
-
-</html>
 
 </html>

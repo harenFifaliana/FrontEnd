@@ -2,6 +2,8 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
 /* VARIABLES CSS */
+
+
 :root {
   --header-height: 3.5rem;
   /* Colors */
@@ -1667,7 +1669,7 @@ button:hover {
   text-transform: uppercase;
   padding: 0.95em 0;
   border-radius: 0.5em;
-  background: rgba(74, 137, 202, 0.8);
+  background: "#FF5B79";
   margin: auto;
 }
 /* ---- Photo Overlay ---- */
@@ -1676,7 +1678,7 @@ button:hover {
   font-size: 0.85em;
   color: #fff;
   padding: 1.1em 1em 0;
-  /* background: #345d88; */
+  background: #fff;
 }
 /* ---- Float clearfix ---- */
 
@@ -1717,7 +1719,7 @@ button:hover {
   transition: background 0.3s;
 }
 .button:hover {
-  background: rgba(74, 137, 202, 1);
+  background: "#FF5B79";
 }
 
 /* ================================= 
