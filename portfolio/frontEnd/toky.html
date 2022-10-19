@@ -97,10 +97,10 @@
                                     <div class="cube-container">
                                         <div class="photo-cube">
 
-                                            <img class="front" src="../assets/img/apropos/galery/langages/html.png" alt="">
+                                            <img class="front photo-desc" src="../assets/img/apropos/galery/langages/html.png" alt="">
                                             <img  class="back photo-desc" src="../assets/img/apropos/galery/langages/css.png" alt="">
-                                             <img class="left" src="../assets/img/apropos/galery/langages/919826.png" alt="">
-                                             <img class="right" src="../assets/img/apropos/galery/langages/js.png" alt="">
+                                             <img class="left photo-desc" src="../assets/img/apropos/galery/langages/919826.png" alt="">
+                                             <img class="right photo-desc" src="../assets/img/apropos/galery/langages/js.png" alt="">
              
                                         </div>
                                     </div>
@@ -117,10 +117,10 @@
                                     <div class="cube-container">
                                         <div class="photo-cube">
 
-                                            <img class="front" src="../assets/img/apropos/galery/langages/python.png" alt="">
+                                            <img class="front photo-desc" src="../assets/img/apropos/galery/langages/python.png" alt="">
                                             <img class="back photo-desc" src="../assets/img/apropos/galery/langages/access.png">
-                                            <img class="left" src="../assets/img/apropos/galery/langages/mysql.png" alt="">
-                                            <img class="right" src="../assets/img/apropos/galery/langages/access.png" alt="">
+                                            <img class="left photo-desc" src="../assets/img/apropos/galery/langages/mysql.png" alt="">
+                                            <img class="right photo-desc"  src="../assets/img/apropos/galery/langages/access.png" alt="">
             
                                         </div>
                                     </div>
@@ -137,10 +137,10 @@
                                     <div class="cube-container">
                                         <div class="photo-cube">
 
-                                            <img class="front" src="../assets/img/248947585_1021974341925417_4872734773143087120_n.png" alt="">
+                                            <img class="front photo-desc" src="../assets/img/248947585_1021974341925417_4872734773143087120_n.png" alt="">
                                             <img class="back photo-desc" src="../assets/img/250311981_588730758914954_396256762077638404_n.png">
-                                            <img class="left" src="../assets/img/250311981_588730758914954_396256762077638404_n.png" alt="">
-                                            <img class="right" src="../assets/img/ps.png" alt="">
+                                            <img class="left photo-desc" src="../assets/img/250311981_588730758914954_396256762077638404_n.png" alt="">
+                                            <img class="right photo-desc" src="../assets/img/ps.png" alt="">
             
                                         </div>
                                     </div>
@@ -386,7 +386,7 @@
                         <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
                     </a>
                 </div>
-                <img src="https://assets.codepen.io/7773162/about-img.png" alt="" class="about__img" />
+                <img src="../assets/img/toky angelot.jpg" alt="" class="about__img" />
             </div>
         </section>
 
@@ -451,10 +451,19 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="bx bx-up-arrow-alt scrollup__icon"></i>
     </a>
+    <footer id="footer">
 
-    <!-- <script>
-        AOS.init();
-    </script> -->
+    </footer>
+
+    <script defer>
+        const loadHTML = (url, div) => {
+            fetch(url)
+                .then((reponse) => reponse.text())
+                .then((contenue) => (document.getElementById(div).innerHTML = contenue));
+        };
+
+        loadHTML("../footer/footer.html", "footer")
+    </script>
 </body>
 
 </html>

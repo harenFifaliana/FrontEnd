@@ -2,6 +2,8 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
 /* VARIABLES CSS */
+
+
 :root {
   --header-height: 3.5rem;
   /* Colors */
@@ -392,6 +394,7 @@ button {
   width: 200px;
   justify-self: center;
   animation: floating 2s ease-in-out infinite;
+  border-radius: 15px;
 }
 /* TRICK OR TREAT */
 .trick__container {
@@ -408,7 +411,7 @@ button {
   overflow: hidden;
 }
 .trick__img {
-  width: 90px;
+  height: 110px;
   transition: 0.3s;
 }
 .trick__subtitle,
@@ -1667,7 +1670,7 @@ button:hover {
   text-transform: uppercase;
   padding: 0.95em 0;
   border-radius: 0.5em;
-  background: rgba(74, 137, 202, 0.8);
+  background: "#FF5B79";
   margin: auto;
 }
 /* ---- Photo Overlay ---- */
@@ -1676,7 +1679,7 @@ button:hover {
   font-size: 0.85em;
   color: #fff;
   padding: 1.1em 1em 0;
-  /* background: #345d88; */
+  background: #fff;
 }
 /* ---- Float clearfix ---- */
 
@@ -1717,7 +1720,7 @@ button:hover {
   transition: background 0.3s;
 }
 .button:hover {
-  background: rgba(74, 137, 202, 1);
+  background: "#FF5B79";
 }
 
 /* ================================= 
