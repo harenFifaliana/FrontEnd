@@ -21,6 +21,6 @@ const loadHTML = (url, div) => {
 };
 
 
-loadHTML("./header/header.html","entete")
+// loadHTML("./header/header.html","entete")
 loadHTML("./contenue/contenue.html","body")
 loadHTML("./footer/footer.html","piedPage")
